@@ -1,0 +1,13 @@
+{
+  "name": "books-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Yehor <faiteforever@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "concurrently \"cd src/client && yarn dev\" \"cd src/server && yarn start:dev\""
+  },
+  "dependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
